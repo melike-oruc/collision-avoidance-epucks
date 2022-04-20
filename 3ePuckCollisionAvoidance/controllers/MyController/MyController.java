@@ -255,7 +255,7 @@ public class MyController {
        if (count>0)//if any distnce sensors caught a object
        {
          //algorithm to decied how much to turn 
-         ls = base + (total/count - 2)*3;//will be expaloned in the video
+         ls = base + (total/count - 2)*3;
          rs = base - (total/count - 2)*3;
          move_robot(ls,rs);
        }
